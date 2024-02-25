@@ -198,11 +198,12 @@ public class CharacterMovement : MonoBehaviour
 
             direccion = (transform.forward * input.y + transform.right * input.x);
 
-            //if (direccion.magnitude > 0.75)
-            //{
-            //    direccion.Normalize();
-            //}
+            if (direccion.magnitude > 0.75)
+            {
+                direccion.Normalize();
+            }
 
+            //animator.SetFloat("InputX", input.x);
             //animator.SetFloat("InputX", input.x);
             //animator.SetFloat("InputY", input.y);
 
