@@ -203,11 +203,11 @@ public class CharacterMovement : MonoBehaviour
                 direccion.Normalize();
             }
 
+            characterController.Move(direccion * speed * Time.deltaTime);
+
             //animator.SetFloat("InputX", input.x);
             //animator.SetFloat("InputX", input.x);
             //animator.SetFloat("InputY", input.y);
-
-            characterController.Move(direccion * speed * Time.deltaTime);
 
             isRunning = false;
             //animator.SetBool("isRunning", false);
@@ -229,12 +229,13 @@ public class CharacterMovement : MonoBehaviour
             isAiming = false;
             //animator.SetBool("isRunning", true);
 
+            direccion = (transform.forward * input.y + transform.right * input.x);
+
             if (direccion.magnitude > 0.75)
             {
                 direccion.Normalize();
             }
 
-            direccion = (transform.forward * input.y + transform.right * input.x);
             characterController.Move(direccion * speedRunning * Time.deltaTime);
         }
 

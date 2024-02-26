@@ -29,13 +29,17 @@ public class AimCamera : MonoBehaviour
         {
             ZoomCamera(defaultFov);
         }
-    }
 
-    private void LateUpdate()
-    {
         cameraFollowPosition.localEulerAngles = new Vector3(yAxis.Value, cameraFollowPosition.localEulerAngles.y, cameraFollowPosition.localEulerAngles.z);
         transform.eulerAngles = new Vector3(transform.eulerAngles.x, xAxis.Value, transform.eulerAngles.z);
+
     }
+
+    //private void LateUpdate()
+    //{
+    //    cameraFollowPosition.localEulerAngles = new Vector3(yAxis.Value, cameraFollowPosition.localEulerAngles.y, cameraFollowPosition.localEulerAngles.z);
+    //    transform.eulerAngles = new Vector3(transform.eulerAngles.x, xAxis.Value, transform.eulerAngles.z);
+    //}
 
     private void ZoomCamera(float target)
     {
