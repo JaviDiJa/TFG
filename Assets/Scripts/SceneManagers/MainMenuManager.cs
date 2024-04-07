@@ -17,7 +17,7 @@ public class MainMenuManager : MonoBehaviour
     {
         SceneLoader.Instance.RemoveMainMenu();
         SceneLoader.Instance.LoadGameLogicScene();
-        SceneLoader.Instance.LoadGameScene1();
+        SceneLoader.Instance.LoadGameScene();
     }
 
     public void LoadOptionsMenu()
