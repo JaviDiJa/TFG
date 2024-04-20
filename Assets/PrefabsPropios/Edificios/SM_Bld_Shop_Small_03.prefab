@@ -94,6 +94,7 @@ GameObject:
   - component: {fileID: 5137450307281155920}
   - component: {fileID: 317919029623310353}
   - component: {fileID: 6072504924526522017}
+  - component: {fileID: 5709684637285233574}
   m_Layer: 0
   m_Name: SM_Bld_Shop_Small_03
   m_TagString: Untagged
@@ -171,6 +172,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5709684637285233574
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5454127902816524456}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 32d2970ff3e5f014f9dacae054a9cc01, type: 3}
 --- !u!1 &6562236541046934253
 GameObject:
   m_ObjectHideFlags: 0

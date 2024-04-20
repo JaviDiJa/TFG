@@ -177,6 +177,7 @@ GameObject:
   - component: {fileID: 6742171986604075926}
   - component: {fileID: 1646053321122141252}
   - component: {fileID: 7755012417379544266}
+  - component: {fileID: -3379283791833031835}
   m_Layer: 0
   m_Name: SM_Bld_HighRise_Medium_01_Interior_Base_01
   m_TagString: Untagged
@@ -256,6 +257,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &-3379283791833031835
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5814220402095231955}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 067161de235de7f45b8a15f21e4555aa, type: 3}
 --- !u!1001 &877056568774709093
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -262,6 +262,7 @@ GameObject:
   - component: {fileID: 4968707670870068333}
   - component: {fileID: 1936249514536222072}
   - component: {fileID: 6471103075560201670}
+  - component: {fileID: 115884068506436963}
   m_Layer: 0
   m_Name: SM_Bld_Commercial_Small_01 (1)
   m_TagString: Untagged
@@ -337,3 +338,25 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &115884068506436963
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8478491359224309983}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 4300000, guid: 2f59f144d4f59a54ba3d587db1f23d8b, type: 3}
